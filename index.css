@@ -1,0 +1,317 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+.top-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8% 0 0 8%;
+}
+
+
+
+h2 {
+    width: 60%;
+    height: 32px;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+h1 {
+    font-weight: 700; 
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -1px;
+}
+
+.text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 90px;
+    flex-direction: column;
+}
+
+.pattern-1 {
+    
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 30px 0;
+}
+
+p {
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 400;
+    text-align: left;
+}
+
+a{
+    display: flex;
+    margin: 20px;
+}
+
+
+.btn-primary{
+    background-color: #191826;
+}
+.btn-secondary{
+    background-color: #fcfaf9;
+    color: #191826;
+}
+.btn-primary:hover{
+    background-color: #66E2DC;
+}
+.btn-secondary:hover{
+    background-color: #FFB964;
+    color: #191826;
+}
+
+@media screen and (min-width: 770px) {
+    body {
+        background-color: #f2f2f2; 
+        background-image: url(/starter-code/assets/bg-main-desktop.png);
+        background-repeat: repeat;
+        background-position:center;
+        font-family: 'IBM Plex Sans', sans-serif;
+        
+       }
+   
+    .top{
+        width: 80%;
+        padding: 4% 0 0 8%;
+
+    }
+    body {
+        padding: 0 0 0 20px;
+    }
+    .image {
+        width:312px;
+        height:642px;
+        left: 13%;
+        bottom: 30%;
+    }
+    .pattern{
+        display: flex;
+        justify-content: center;
+        left: 30%;
+        bottom: 25%;
+
+
+    }
+
+    .card{
+        width: 446px;
+        height: 625px;
+        right: 18%;
+        top: 20%;
+    }
+    button{
+        width: 333px;
+        height: 61px;
+    }
+    .title-head{
+        margin: 80px 0px 40px 0px;
+    }
+    
+    footer {
+        display: flex;
+        height: auto;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 150px;
+     }
+     .main {
+        margin-top: 300px; 
+     }
+     .btn-primary:hover{
+        background-color: #66E2DC;
+    }
+    .links{
+        justify-content: flex-end;
+     }
+     .title-card{
+        margin: 25px 0 35px 50px;
+    }
+    .para {
+        margin: 20px 50px 20px 50px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: #f2f2f2; 
+        background-image: url(/starter-code/assets/bg-main-tablet.png);
+        background-repeat: repeat;
+        background-position:center;
+        font-family: 'IBM Plex Sans', sans-serif;
+        
+       }
+   
+    .top-head{
+        padding: 8% 0 5% 4%;
+    }
+    .top{
+        width: 80%;
+        padding: 4% 8% 0 4%;
+    }
+    p {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        text-align: left;
+    }
+    h1 {
+        font-size: 64px;
+        line-height: 64px; 
+        letter-spacing:-0.73 px;
+    }
+    .image {
+        width: 270.21px;
+        height: 556px;
+        right: 50%;
+        bottom: 20%;
+       }
+    .pattern{
+        display: flex;
+        justify-content: center;
+        width: 280px;
+        height: 420px;
+        left: 35%;
+        bottom: 35%;
+
+    }
+    
+    .bg-pattern{
+        width: 266.6px;
+        height: 400px; 
+    }
+    
+    .card {
+        width: 399px;
+        height: 546px;
+        right: 7%;
+        top: 30%;
+    }
+    button{
+        width: 296px;
+        height: 61px;
+    }
+    .card-title{
+        margin: 30px 0 35px 0;
+    }
+    footer {
+        display: flex;
+        height: auto;
+        margin-top: 150px;
+     }
+     .main {
+        margin-top: 200px; 
+     }
+     .links{
+        justify-content: flex-end;
+     }
+     .title-card{
+        font-size: 32px;
+        margin: 30px 0 35px 35px;
+    }
+    .para {
+        margin: 20px 35px 20px 35px;
+    }
+     
+    
+}
+
+@media screen and (max-width: 430px) {
+    body {
+        background-color: #f2f2f2; 
+        background-image: url(/starter-code/assets/bg-main-mobile.png);
+        background-repeat: repeat;
+        background-position:center;
+        font-family: 'IBM Plex Sans', sans-serif;
+        
+       }
+    p {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+    }
+    h1 {
+        font-size: 40px;
+        line-height:  48px; 
+        letter-spacing:-0.454545 px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 100%;
+        height: 546px;
+        left:0;
+        top: 67%;
+    }
+
+    .image {
+        width: 208.97px;
+        height: 430px;
+        bottom: 50%;
+        left: 20%;
+    }
+    button{
+        width: 296px;
+        height: 61px;
+    }
+    .pattern{
+        width: 280px;
+        height: 420px;
+        top: 5px;
+        left: 12%;
+        
+
+    }
+   
+     footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 90%;
+     }
+     
+    .pattern-1{
+        display: none;
+     }
+     .main {
+        margin-top: 180px; 
+        width: 100%;
+     }
+     .links{
+        justify-content: flex-start;
+        margin: 50px 0 50px -20px;
+     }
+     .para {
+        margin: 20px 25px 20px 25px;
+    }
+
+}
+svg:hover  {
+    fill: #FA7453;
+  }
